@@ -7,3 +7,4 @@ def test_division():
 def test_divide_zero_exception():
     with pytest.raises(ZeroDivisionError):
         Calculator.division(10, 0)
+

@@ -4,6 +4,7 @@ from app.multiplication import multiply
 from app.division import divide
 
 class Calculator:
+
     @staticmethod
     def addition(val1, val2):
         return add(val1, val2)

@@ -1,4 +1,3 @@
-import pytest
 from app.calculator import Calculator
 
 def test_addition():
@@ -14,4 +13,5 @@ def test_multiplication():
 
 def test_division():
     assert Calculator.division(10, 2) == 5
+
 
