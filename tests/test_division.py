@@ -1,10 +1,13 @@
+""" TEST DIVISION """
 import pytest
-from app.calculator import Calculator
+from app.division import divide
 
 def test_division():
-    assert Calculator.division(10, 2) == 5
+    """ DIVISION """
+    result = divide(9, 3)
+    assert result == 3
 
 def test_divide_zero_exception():
+    """ DIVISION """
     with pytest.raises(ZeroDivisionError):
-        Calculator.division(10, 0)
-
+        divide(4, 0)

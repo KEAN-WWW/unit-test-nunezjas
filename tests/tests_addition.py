@@ -1,6 +1,7 @@
-from app.calculator import Calculator
+""" TEST ADD """
+from app.addition import add
 
 def test_addition():
-   result = Calculator.addition(val1=2, val2= 2)
-   assert result == 4, "The addition function returns the wrong value"
-
+    """  ADD """
+    result = add(2, 2)
+    assert result == 4

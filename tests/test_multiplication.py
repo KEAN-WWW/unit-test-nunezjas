@@ -1,6 +1,7 @@
-from app.calculator import multiply
+""" TEST MULTIPLY """
+from app.multiplication import multiply
 
 def test_multiplication():
-    result = multiply(val1=2, val2=2)
-    assert result == 4
-
+    """ MULTIPLY """
+    result = multiply(10, 2)
+    assert result == 20
