@@ -19,3 +19,4 @@ class Calculator:
     @staticmethod
     def division(val1, val2):
         return divide(val1, val2)
+

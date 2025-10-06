@@ -14,3 +14,4 @@ def test_multiplication():
 
 def test_division():
     assert Calculator.division(10, 2) == 5
+
